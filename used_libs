@@ -1,3 +1,4 @@
+libamtk-5.so.0
 libc.so.6
 libgdk-3.so.0
 libgio-2.0.so.0
@@ -6,6 +7,4 @@ libgobject-2.0.so.0
 libgtk-3.so.0
 libm.so.6
 libpango-1.0.so.0
-libpthread.so.0
 libwebkit2gtk-4.0.so.37
-libz.so.1
