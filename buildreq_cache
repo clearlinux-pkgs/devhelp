@@ -1,5 +1,5 @@
-40.1
-amtk-dev
-pkgconfig(amtk-5)
+41.1
+appstream-glib
 pkgconfig(webkit2gtk-4.0)
+pkgconfig(webkit2gtk-4.1)
 webkitgtk-dev
