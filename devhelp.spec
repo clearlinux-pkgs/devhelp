@@ -4,7 +4,7 @@
 #
 Name     : devhelp
 Version  : 41.1
-Release  : 20
+Release  : 21
 URL      : https://download.gnome.org/sources/devhelp/41/devhelp-41.1.tar.xz
 Source0  : https://download.gnome.org/sources/devhelp/41/devhelp-41.1.tar.xz
 Summary  : GObject-Introspection based documentation generator
@@ -20,6 +20,8 @@ BuildRequires : appstream-glib
 BuildRequires : buildreq-distutils3
 BuildRequires : buildreq-gnome
 BuildRequires : buildreq-meson
+BuildRequires : pkgconfig(webkit2gtk-4.0)
+BuildRequires : pkgconfig(webkit2gtk-4.1)
 BuildRequires : webkitgtk-dev
 
 %description
@@ -111,7 +113,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1632420421
+export SOURCE_DATE_EPOCH=1632783387
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
