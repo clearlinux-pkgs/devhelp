@@ -4,7 +4,7 @@
 #
 Name     : devhelp
 Version  : 41.1
-Release  : 18
+Release  : 19
 URL      : https://download.gnome.org/sources/devhelp/41/devhelp-41.1.tar.xz
 Source0  : https://download.gnome.org/sources/devhelp/41/devhelp-41.1.tar.xz
 Summary  : GObject-Introspection based documentation generator
