@@ -1,8 +1,37 @@
-# SPDX-FileCopyrightText: 2021 Simon McVittie
-#
-# SPDX-License-Identifier: Apache-2.0 OR GPL-3.0-or-later
+option(
+  'flatpak_build',
+  type: 'boolean', value: false,
+  description: 'Flatpak build mode'
+)
 
-option('development_tests',
-       type : 'boolean',
-       value : true,
-       description : 'run tests that are appropriate during gi-docgen development but not during packaging')
+option(
+  'gtk_doc',
+  type: 'boolean', value: false,
+  description: 'Build the API reference'
+)
+
+option(
+  'plugin_emacs',
+  type: 'boolean', value: false,
+  description: 'Install the Emacs plugin'
+)
+
+option(
+  'plugin_gedit',
+  type: 'boolean', value: false,
+  description: 'Install the gedit plugin'
+)
+
+option(
+  'plugin_vim',
+  type: 'boolean', value: false,
+  description: 'Install the Vim plugin'
+)
+
+option(
+  'profile',
+  type: 'combo',
+  choices: ['stable', 'devel'],
+  value: 'stable',
+  description: 'The build profile',
+)

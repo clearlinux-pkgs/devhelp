@@ -1,10 +1,21 @@
-News in 41.3, 2022-08-26
+News in 43.0, 2022-09-20
 ------------------------
-* Disable hardware acceleration for WebKitGTK [#60]
-* Update the location of the app screenshots [#61]
 * Translation updates
-* Fix build with Meson ≥ 0.60 [#59]
-* Appdata validation fixes
+
+News in 43.rc, 2022-09-03
+-------------------------
+* Use Meson's gnome.post_install() [!49]
+* Translation updates
+
+News in 43.beta, 2022-08-10
+---------------------------
+* Translation updates
+
+News in 43.alpha, 2022-07-13
+----------------------------
+* Temporarily disable hardware accelerated rendering [#60]
+* Fix build with newer versions of Meson [#59]
+* Translation updates
 
 News in 41.2, 2021-10-01
 ------------------------
